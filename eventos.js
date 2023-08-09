@@ -8,5 +8,5 @@ container.addEventListener("click", saludoDiv);
 
 function saludoBoton(event) {
     alert('¡Hola!');
-   
+    event.stopPropagation();
 }
