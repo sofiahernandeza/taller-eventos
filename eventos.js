@@ -1,6 +1,6 @@
-const container= document.querySeleget("#myDiv");
+const container= document.querySelector("#myDiv");
 
-container.addEventListener("click", () => {
-    
+function saludoDiv() {
     alert('Hola! Soy el div');
-  });
+}
+container.addEventListener("click", saludoDiv);
